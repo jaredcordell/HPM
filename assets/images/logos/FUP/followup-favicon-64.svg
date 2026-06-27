@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Follow-Up Pathway">
+  <defs><marker id="fu64" viewBox="0 0 5 5" markerWidth="3.4" markerHeight="3.4" refX="3" refY="2.5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L5,2.5 L0,5 L1.5,2.5 Z" fill="#69B578"/></marker></defs><rect width="64" height="64" fill="#0B2545"/><g fill="#FFFFFF"><rect x="16" y="36" width="5" height="10" rx="1.5"/><rect x="25" y="31" width="5" height="15" rx="1.5"/><rect x="34" y="26" width="5" height="20" rx="1.5"/><rect x="43" y="21" width="5" height="25" rx="1.5"/></g><path d="M14 44 C28 42 40 36 48 22" fill="none" stroke="#69B578" stroke-width="2.6" stroke-linecap="round" marker-end="url(#fu64)"/>
+</svg>

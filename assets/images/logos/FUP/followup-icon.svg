@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="Follow-Up Pathway">
+  <title>Follow-Up Pathway — icon block</title>
+  <defs>
+    <marker id="fuArrow" viewBox="0 0 5 5" markerWidth="3.8" markerHeight="3.8" refX="3" refY="2.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L5,2.5 L0,5 L1.5,2.5 Z" fill="#69B578"/>
+    </marker>
+  </defs>
+  <rect x="22" y="32" width="76" height="56" fill="#0B2545"/>
+  <g fill="#FFFFFF">
+    <rect x="38" y="68" width="7" height="12" rx="2"/>
+    <rect x="50" y="62" width="7" height="18" rx="2"/>
+    <rect x="62" y="56" width="7" height="24" rx="2"/>
+    <rect x="74" y="50" width="7" height="30" rx="2"/>
+  </g>
+  <path d="M34 76 C52 73 70 66 82 44" fill="none" stroke="#69B578" stroke-width="3" stroke-linecap="round" marker-end="url(#fuArrow)"/>
+</svg>

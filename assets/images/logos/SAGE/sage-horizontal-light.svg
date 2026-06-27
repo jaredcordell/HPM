@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="90" viewBox="0 0 300 90" role="img" aria-label="Sage Voice AI">
+  <title>Sage Voice AI — horizontal lockup, light</title>
+  <rect x="20" y="20" width="60" height="50" fill="#0B2545"/>
+  <g fill="#FFFFFF">
+    <rect x="35" y="38" width="4" height="14" rx="2"/>
+    <rect x="41.5" y="33" width="4" height="24" rx="2"/>
+    <rect x="48" y="28" width="4" height="34" rx="2"/>
+    <rect x="54.5" y="33" width="4" height="24" rx="2"/>
+    <rect x="61" y="38" width="4" height="14" rx="2"/>
+  </g>
+  <text x="96" y="46" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#0B2545" letter-spacing="0.2">Sage</text>
+  <text x="97" y="64" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#247BA0" letter-spacing="3.5">VOICE AI</text>
+</svg>

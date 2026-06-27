@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="Sage">
+  <title>Sage Voice AI — icon block</title>
+  <rect x="22" y="32" width="76" height="56" fill="#0B2545"/>
+  <g fill="#FFFFFF">
+    <rect x="39.5" y="51" width="5" height="18" rx="2.5"/>
+    <rect x="48.5" y="45" width="5" height="30" rx="2.5"/>
+    <rect x="57.5" y="39" width="5" height="42" rx="2.5"/>
+    <rect x="66.5" y="45" width="5" height="30" rx="2.5"/>
+    <rect x="75.5" y="51" width="5" height="18" rx="2.5"/>
+  </g>
+</svg>
