@@ -52,8 +52,8 @@ header.nav.scrolled::before{
 }
 .nav-inner{display:flex;align-items:center;justify-content:space-between}
 .nav .logo{display:flex;align-items:center;height:56px}
-.nav .logo svg{height:56px;width:auto}
-header.nav.scrolled .logo,header.nav.scrolled .logo svg{height:46px;transition:height .4s var(--ease)}
+.nav .logo img{height:56px;width:auto}
+header.nav.scrolled .logo,header.nav.scrolled .logo img{height:46px;transition:height .4s var(--ease)}
 .nav-links{display:flex;align-items:center;gap:36px}
 .nav-links a{
   font-size:14px;font-weight:600;color:rgba(255,255,255,.78);
@@ -370,7 +370,7 @@ footer{background:var(--navy-deep);color:#fff;padding:80px 0 40px}
 .foot-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px;margin-bottom:60px}
 @media(max-width:880px){.foot-grid{grid-template-columns:1fr 1fr;gap:40px 24px}}
 @media(max-width:520px){.foot-grid{grid-template-columns:1fr}}
-.foot-brand svg{height:42px;margin-bottom:22px}
+.foot-brand img{height:42px;margin-bottom:22px}
 .foot-brand p{color:rgba(255,255,255,.55);font-size:.95rem;max-width:300px;line-height:1.65}
 .foot-contact{margin-top:24px;font-size:.95rem;color:rgba(255,255,255,.7);display:grid;gap:6px}
 .foot-contact a:hover{color:var(--green)}
