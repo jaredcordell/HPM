@@ -389,6 +389,16 @@ section{padding:120px 0}
 .cta-band p{color:rgba(255,255,255,.68);max-width:520px;margin:0 auto 38px;font-size:1.1rem;position:relative}
 .cta-band .hero-actions{justify-content:center;animation:none;opacity:1}
 
+/* ===== BOOKING EMBED ===== */
+.booking-embed{
+  max-width:760px;margin:0 auto;border:1px solid var(--line);border-radius:24px;
+  overflow:hidden;background:#fff;box-shadow:0 30px 60px -34px rgba(11,37,69,.18);
+}
+.booking-embed iframe{display:block;width:100%;min-height:600px}
+.booking-alt{text-align:center;margin:32px auto 0;color:var(--txt-soft);font-size:.98rem}
+.booking-alt a{font-weight:700;color:var(--navy)}
+.booking-alt a:hover{color:var(--steel)}
+
 /* ===== FOOTER ===== */
 footer{background:var(--navy-deep);color:#fff;padding:80px 0 40px}
 .foot-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px;margin-bottom:60px}
