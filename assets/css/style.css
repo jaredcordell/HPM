@@ -277,6 +277,52 @@ section{padding:120px 0}
 .spotlight-mark .big{font-family:var(--serif);font-size:1.3rem;font-weight:500;color:#fff}
 .spotlight-mark .sub{font-size:13px;color:rgba(255,255,255,.55);margin-top:6px;letter-spacing:.04em}
 
+/* ===== TEAM DIRECTORY ===== */
+.team-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+@media(max-width:980px){.team-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.team-grid{grid-template-columns:1fr}}
+.team-member{
+  border:1px solid var(--line);border-radius:20px;overflow:hidden;background:#fff;
+  transition:transform .45s var(--ease),box-shadow .45s;
+}
+.team-member:hover{transform:translateY(-6px);box-shadow:0 30px 60px -34px rgba(11,37,69,.28)}
+.team-member .ph{position:relative;overflow:hidden;background:var(--navy);aspect-ratio:3/4}
+.team-member .ph img{
+  width:100%;height:100%;object-fit:cover;object-position:center top;
+  display:block;transition:transform .7s var(--ease);
+}
+.team-member:hover .ph img{transform:scale(1.05)}
+.team-member .ph.placeholder{display:flex;align-items:center;justify-content:center}
+.team-member .ph.placeholder .initials{font-family:var(--serif);font-weight:600;font-size:3rem;color:rgba(255,255,255,.3)}
+.team-member .ph .badge{
+  position:absolute;top:14px;right:14px;z-index:2;
+  background:rgba(255,255,255,.94);color:var(--navy);
+  font-size:10px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;
+  padding:5px 10px;border-radius:100px;
+}
+.team-member .body{padding:22px 22px 26px}
+.team-member h3{font-size:1.2rem;font-weight:700;color:var(--navy);letter-spacing:-.01em}
+.team-member .title{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--steel);margin:5px 0 14px}
+.team-member .email{
+  display:inline-flex;align-items:center;gap:7px;font-weight:700;color:var(--navy);
+  font-size:.85rem;white-space:nowrap;margin-bottom:18px;
+  background:var(--mist);padding:8px 16px;border-radius:100px;
+  transition:background .25s var(--ease),color .25s;
+}
+.team-member .email:hover{background:var(--steel);color:#fff}
+.team-member .email svg{width:13px;height:13px;flex-shrink:0;color:var(--green);transition:color .25s}
+.team-member .email:hover svg{color:#fff}
+.team-member .contact-about{font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--txt-mute);margin-bottom:8px}
+.team-member .contact-list{list-style:none;display:flex;flex-direction:column;gap:5px}
+.team-member .contact-list li{
+  position:relative;padding-left:14px;
+  font-size:.82rem;font-style:italic;color:var(--steel);
+}
+.team-member .contact-list li::before{
+  content:'';position:absolute;left:0;top:.5em;
+  width:5px;height:5px;border-radius:50%;background:var(--green);
+}
+
 /* ===== PROCESS ===== */
 .process{background:var(--navy);color:#fff;border-radius:32px;padding:80px 60px}
 @media(max-width:640px){.process{padding:52px 28px}}
