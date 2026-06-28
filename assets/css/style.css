@@ -265,6 +265,13 @@ section{padding:120px 0}
 .product .more .arr{transition:transform .3s var(--ease)}
 .product:hover .more .arr{transform:translateX(5px)}
 
+/* ===== PRODUCT LOCKUPS (sub-brand logos within a page) ===== */
+.product-lockup{height:40px;width:auto;display:block;margin-bottom:24px}
+.spotlight-mark{position:relative;z-index:2;text-align:center}
+.spotlight-mark img{width:96px;height:96px;margin-bottom:24px}
+.spotlight-mark .big{font-family:var(--serif);font-size:1.3rem;font-weight:500;color:#fff}
+.spotlight-mark .sub{font-size:13px;color:rgba(255,255,255,.55);margin-top:6px;letter-spacing:.04em}
+
 /* ===== PROCESS ===== */
 .process{background:var(--navy);color:#fff;border-radius:32px;padding:80px 60px}
 @media(max-width:640px){.process{padding:52px 28px}}
